@@ -19,6 +19,7 @@
   }
   .content-container {
     flex: 1;
+    color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
