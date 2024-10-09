@@ -1,3 +1,4 @@
+
 import React from 'react'
 interface Productid{
     productid:number
@@ -6,6 +7,7 @@ interface Productid{
 interface Individual{
     params:Productid
 }
+
 const Individualproduct = ({params}:Individual) => {
   return (
     <div>
