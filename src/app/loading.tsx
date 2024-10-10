@@ -11,7 +11,7 @@ const Loader = () => {
       document.body.removeChild(script); // Cleanup script on component unmount
     };
   }, []);
-
+  
   return (
     <div className='loader-container'>
       {/* New Lottie Player */}
