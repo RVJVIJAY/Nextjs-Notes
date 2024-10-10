@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import './style.css'
 import { usePathname } from "next/navigation";
 interface Children {
@@ -15,8 +15,10 @@ const InnerLayout: React.FC<Children> = ({ children }) => {
     },
     { name: "Register", href: "/register" },
   ];
+  const [input,setinput]=useState<string>('');
   return (
     <div>
+      <input type="text" value={input} onChange={(e)=>setinput(e.target.value)}/>
       {links.map((item, index) => {
         const isActivelink = pathname.startsWith(item.href)
         return(
