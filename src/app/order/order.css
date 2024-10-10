@@ -1,0 +1,14 @@
+.custom-toast {
+    background-color: #d2dfd2 !important; /* Custom background */
+    color: rgb(51, 50, 50) !important; /* Custom text color */
+    border-radius: 10px !important;
+    padding: 15px !important;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-toast-progress-bar {
+    background-color: #fff !important; /* Custom progress bar color */
+  }
+  
